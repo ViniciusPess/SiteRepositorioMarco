@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Portifólio | Marco Chaves</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/ms-icon-310x310.png"
+    />
+     <!-- Navegação e início -->
+     <link rel="stylesheet" href="/assets/css/navegacao-inicio.css" />
+     <!-- Sobre mim -->
+     <link rel="stylesheet" href="/assets/css/sobre-mim.css" />
+     <!-- Projetos -->
+     <link rel="stylesheet" href="/assets/css/projetos.css" />
+     <!-- Habilidades -->
+     <link rel="stylesheet" href="/assets/css/habilidades.css" />
+     <!-- footer -->
+     <link rel="stylesheet" href="/assets/css/footer.css" />
+     <!--responsive-->
+     <link rel="stylesheet" href="/assets/css/responsivo.css">
+     <style>
+       /* Alteração da paleta de cores */
+       body {
+         background-color: #f2f2f2;
+       }
+       /* Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    width: 6px; 
+    background-color: #000;
+  }
+  
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8F00FF; 
+    border-radius: 6px;
+  }
+
+  .social-media {
+  margin-bottom: 5rem;
+}
+
+.social-media i {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-right: 2rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+  /* Default Styles */
+     </style>
+</head>
+<body onload="typeWriter(fName);">
+    <div>
+        <!-- menu -->
+      <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="close-menu"
+      role="button"
+    />
+    <label
+      class="close-menu-label"
+      for="close-menu"
+      title="close menu"
+    ></label>
+    <div class="barra">
+      <div class="menu-centro">
+        <div class="barra-conteiner centralizador">
+          <div class="logo esquerda">
+            <a href="index.html"
+              ><img src="/assets/img/logo.png" alt="logo"
+            /></a>
+          </div>
+          <nav class="direita">
+            <ul onclick="getElementById('close-menu').checked=false;">
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- menu -->
+
+    <!-- primeira tela -->
+    <section id="inicio">
+        <div class="altura-ajuste">
+          <div class="inicio centralizador">
+            <div class="ajustador organizador">
+              <div class="apresentacao">
+                <p class="descricao">
+                  Oi, eu sou <br />
+                  <span style="display: inline" class="meu-nome"
+                    >Marco Chaves.</span
+                  >
+                  <br />
+                  <!-- Desenvolvedor Full Stack -->
+                  Desenvolvedor Front-end
+                </p>
+                <br />
+                <div class="linkedin">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="link"
+                    >Linkedin</a
+                  >
+                </div>
+              </div>
+              <div class="desenho">
+                <img
+                  class="desenho2"
+                  src="/assets/img/eu.png"
+                  alt="Eu-em-desenho"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- primeira tela -->
+      <!-- sobre mim -->
+      <section id="sobre-mim">
+        <h2 class="sobremimh2">Sobre mim</h2>
+        <div class="centralizador">
+          <div class="ajustador-2">
+            <div class="avatar">
+              <p class="logosobremim"> &lt;/&gt;</p>
+            </div>
+            <div class="sobre-mim">
+              
+              <br />
+              <p>
+                Sou Marco Aurelio Chaves Junior, um apaixonado desenvolvedor web de 18 anos com amplo conhecimento em HTML, CSS e JavaScript. Minhas habilidades incluem a criação de estruturas semânticas em HTML, estilização de páginas com CSS, e a implementação de interatividade e funcionalidades dinâmicas com JavaScript. Como desenvolvedor front-end, estou constantemente atualizado com as últimas tendências de design e desenvolvimento web.      
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sobre mim -->
+      <!-- Projetos -->
+      <section id="projetos">
+        <div class="centralizador projetos">
+            <h2 class="project">Projetos</h2>
+            <div class="projetos-itens">
+                <a href="https://github.com/ViniciusPess/Projeto1Serfrontend" target="_blank">
+                    <div class="pro portfolio">
+                        
+                    </div>
+                </a>
+                <a href="https://github.com/ViniciusPess/Projeto11-FurnitureWebSite/tree/main" target="_blank">
+                    <div class="pro projeto2">
+                    
+                    </div>
+                </a>
+                <a href="https://github.com/ViniciusPess/Projeto1-Relogio/tree/main" target="_blank">
+                    <div class="pro projeto3">
+                    
+                    </div>
+                </a>
+                <a href="https://github.com/ViniciusPess/Projeto9-Clima" target="_blank>">
+                    <div class="pro escondido projeto4">
+                   
+                    </div>
+                </a>
+                <a href="https://github.com/ViniciusPess/Projeto8-GeradordeSenha" target="_blank>">
+                    <div class="pro escondido projeto5">
+                    
+                    </div>
+                </a>
+                <a href="https://github.com/ViniciusPess/Projeto10-MarioGame" target="_blank">
+                    <div class="pro escondido projeto6">
+                    
+                    </div>
+                </a>
+            </div>
+
+            <div class="github-link">
+                <button>Ver mais</button>
+                <a
+                    href="https://github.com/ViniciusPess?tab=repositories"
+                    target="_blank"
+                    >Repositórios no github</a
+                >
+            </div>
+        </div>
+    </section>
+      <!-- Projetos -->
+
+      <!-- Habilidades -->
+      <section class="habilidades" id="habilidades"> 
+        <h2 class="sobremimh2">Habilidades</h2>
+        <div class="skills-cards">
+          <div class="skills-card">
+            <div class="skill">
+              <span>HTML</span>
+              <span>70%</span>
+            </div>
+            <p>
+              É uma linguagem de marcação utilizada na construção de páginas na Web.
+            </p>
+            <div class="skills-card-progress"></div>
+          </div>
+          <div class="skills-card">
+            <div class="skill">
+              <span>CSS</span>
+              <span>50%</span>
+            </div>
+            <p>
+              É um mecanismo para adicionar estilo em cascata a um documento web.
+            </p>
+            <div class="skills-card-progress"></div>
+          </div>
+          <div class="skills-card">
+            <div class="skill">
+              <span>JavaScript</span>
+              <span>30%</span>
+            </div>
+            <p>
+              É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.
+            </p>
+            <div class="skills-card-progress"></div>
+          </div>
+        </div>
+      </section>
+        <!-- Habilidades -->
+
+        <!-- footer -->
+            <footer class="footer">
+                <div class="icons">
+                  <a href="https://www.linkedin.com/in/viniciuspess" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://www.instagram.com/vinicius_pess" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/ViniciusPess" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                </div>
+                <div class="copyright">
+                  <p>&copy; Marco<span>Chaves</span> Todos os direitos reservados. 2023</p>
+                </div>
+                <div class="author">
+                  <p>Made By <span>Vinicius Pessanha</span></p>
+                </div>
+              </footer>
+              <!-- footer -->
+            </div>
+            <script src="./assets/js/scroll.js"></script>
+            <script src="/assets/js/maquina_escrever.js"></script>
+            <script src="./assets/js/habilidades.js"></script> 
+</body>
+</html>
